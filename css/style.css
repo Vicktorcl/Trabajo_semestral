@@ -1,3 +1,10 @@
 div{
     border: 4px color red;
 }
+
+h1,h2{text-align: center;}
+
+.contra {
+      display: flex;
+     justify-content: center;
+    }
