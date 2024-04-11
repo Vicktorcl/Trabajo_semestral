@@ -20,24 +20,46 @@
     <h1>Mis Datos</h1>
 
     <div class="container border border-dark p-4">
-        <h2 class="text-center">Actualizar datos personales</h2>
+        <div class="row">
+            <div class="col">
         <form id="loginForm">
+            
+               
             <div class="form-group">
                 <label for="username">Rut</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="rut ej: 00000000-0" required>
             </div>
+            
             <div class="form-group">
                 <label for="username">Nombres</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de Usuario" required>
             </div>
+
+        
+            
             <div class="form-group">
                 <label for="username">Apellidos</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="Apellidos de Usuario" required>
             </div>
+        </div>
+        <div class="col">
+            <div class="col-md-6" style="margin-left: 250px;">
+                <!-- Imagen alineada a la derecha -->
+                <img src="img/logo.jpg" alt="Descripción de la imagen" class="float-right" >
+                <br>
+                
+                <button type="button" class="btn btn-primary btn-block " style="margin-left: 100px;">Examinar
+              
+                </button>
+                
+
+              </div>
+        </div>
             <div class="form-group">
                 <label for="username">Correo</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="Correo de Usuario" required>
             </div>
+            
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Dirección</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -55,7 +77,11 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Ingresar</button>
+
+            
         </form>
+
+    </div>
     </div>
 
     <footer class="footer bottom bg-dark text-white">
