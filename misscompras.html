@@ -16,41 +16,75 @@
 
 <body>
   <div id="menu"></div>
-   <h3>Mis productos</h3>
+   
 <!--Tabla-->
-   <div class="container">
-    <h2>Ejemplo de tabla con Bootstrap</h2>
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Nombre</th>
-          <th scope="col">Apellido</th>
-          <th scope="col">Edad</th>
+  
+    <!-- Tablas -->
+    <div class="container">
+      <h1 class="mt-5">Mis compras anteriores</h1>
+      <table class="table mt-4">
+          <thead>
+              <tr>
+                  <th>Nro Boleta</th>
+                  <th>Fecha venta</th>
+                  <th>Fecha despacho</th>
+                  <th>Fecha entrega</th>
+                  <th>Monto total</th>
+                  <th>Estado actual</th>
+                  <th>Opciones</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>123</td>
+                  <td>2/1/1987</td>
+                  <td>2/2/2002</td>
+                  <td>2/2/2003</td>
+                  <td>$20000</td>
+                  <td>Entregado</td>
+                  <td>
+                    <a href="#">Ver Detalle</a>
+                  </td>
+              </tr>
+              <tr>
+                <td>666</td>
+                <td>5/6/1987</td>
+                <td>1/6/2008</td>
+                <td>9/2/2011</td>
+                <td>$15000</td>
+                <td>Despachado</td>
+                <td>
+                  <a href="#">Ver Detalle</a>
+                </td>
+            </tr>
+            <tr>
+              <td>963</td>
+              <td>2/11/2008</td>
+              <td>5/6/2009</td>
+              <td>10/12/2020</td>
+              <td>$30</td>
+              <td>Vendido</td>
+              <td>
+                <a href="#">Ver Detalle</a>
+              </td>
+          </tr>
+          <tr>
+            <td>684</td>
+            <td>2/4/2022</td>
+            <td>5/7/2022</td>
+            <td>26/11/2022</td>
+            <td>$8000</td>
+            <td>Entregado</td>
+            <td>
+              <a href="#">Ver Detalle</a>
+            </td>
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>John</td>
-          <td>Doe</td>
-          <td>30</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jane</td>
-          <td>Smith</td>
-          <td>25</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Mary</td>
-          <td>Johnson</td>
-          <td>40</td>
-        </tr>
-      </tbody>
-    </table>
+
   </div>
+  </tbody>
+  </table>
+  </div>
+
 
     
   <!--Footer-->
