@@ -17,7 +17,7 @@
     </div>
 
 
-
+    
 
     <!-- Tablas -->
     <div class="container">
@@ -25,12 +25,12 @@
         <table class="table mt-4">
             <thead>
                 <tr>
-                    <th>Categoria</th>
+                    <th>Categoría</th>
                     <th>Producto</th>
                     <th>Precio</th>
-                    <th>%Subscriptor</th>
-                    <th>%Oferta</th>
-                    <th>%Desc Total</th>
+                    <th>% Subscriptor</th>
+                    <th>% Oferta</th>
+                    <th>% Desc Total</th>
                     <th>Descuentos</th>
                     <th>Precio a pagar</th>
                     <th>Opciones</th>
@@ -81,15 +81,58 @@
                     <td>$840.000</td>
                     <td>Eliminar</td>
                 </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <br>
+
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <table style="float:right">
+                <tr>
+                    <td>
+                        Precio sin IVA
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="precio_sin_iva" id="precio_sin_iva">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor del IVA (19%)
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="valor_del_iva" id="valor_del_iva">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total a pagar
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" name="total_a_pagar" id="total_a_pagar">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <button type="button" class="btn btn-success btn-m" style="float:right">Pagar</button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-danger btn-m" style="float:right">Cancelar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
-    </tbody>
-    </table>
-    </div>
+</div>
 
-
-
-    </div>
 
 
 

@@ -31,3 +31,8 @@ button, .btn {
 .container{
     margin:30px;
 }
+
+#boleta_tabla_estados td {
+    text-align: center;
+    vertical-align: top;
+}
