@@ -22,3 +22,12 @@ img{ float: left;}
     background-position: center center; /* Centra la imagen de fondo */
     color: white; /* Cambia el color del texto para que sea legible en el fondo */
   }
+
+button, .btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container{
+    margin:30px;
+}
