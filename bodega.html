@@ -12,7 +12,7 @@
 
 <body>
 
-    <div id="menu"></div>
+    <div id="menu_administrador"></div>
 
     </div>
 
@@ -21,7 +21,48 @@
 
     <!-- Tablas -->
     <div class="container">
+        
         <h1 class="mt-5">Bodega de productos</h1>
+
+        <div class="row">
+            <div class="col">
+                
+                <h4 class="text-center">Categoria</h4>
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                <option selected>Videojuego</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              
+              <h4 class="text-center">Nombre</h4>
+              <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                <option selected>Pokemon Snap</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <h4 class="text-center">Cantidad</h4>
+              <div class="form-group">
+                <input type="text" class="form-control" id="username" name="username" placeholder="6" required>
+            </div>
+              
+            </div>
+            <div class="col">
+                <div class="col-md-6" style="margin-left: 230px;">
+                    <!-- Imagen alineada a la derecha -->
+                    <img src="img/producto24286_1.webp" alt="Descripción de la imagen" class="float-right" style="height: 300px; width: 300px;" >
+                    
+                  </div>
+            <div>                
+    </div>
+</div>
+
+<div>
+    <button type="button" class="btn btn-primary">Nuevo</button>
+    <button type="button" class="btn btn-primary">Agregar</button>
+</div>
         <table class="table mt-4">
             <thead>
                 <tr>
@@ -39,30 +80,38 @@
                     <td>Consola</td>
                     <td>Xbox series</td>
                     <td>Vendido</td>
-                    <td>Eliminar</td>
+                    <td>
+                        <a href="#">Eliminar</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Videojuego</td>
                     <td>Super mario maker 2</td>
                     <td>Entregado</td>
-                    <td>Eliminar</td>
+                    <td>
+                        <a href="#">Eliminar</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Consola</td>
                     <td>Playstation 7</td>
                     <td>En bodega</td>
-                    <td>Eliminar</td>
+                    <td>
+                        <a href="#">Eliminar</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Consola</td>
                     <td>Nintendo Switch 2 pro</td>
                     <td>Entregado</td>
-                    <td>Eliminar</td>
+                    <td>
+                        <a href="#">Eliminar</a>
+                    </td>
                 </tr>
-
+            </div>
     </div>
     </tbody>
     </table>

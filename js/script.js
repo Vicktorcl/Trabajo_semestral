@@ -1,6 +1,6 @@
 if (document.getElementById('menu')) {
 
-  fetch('menu_superior.html').then(response => {
+  fetch('navbar_normal.html').then(response => {
 
       return response.text();
 
@@ -23,6 +23,22 @@ if (document.getElementById('menu_cliente')) {
   }).then(htmlContent => {
 
   document.getElementById('menu_cliente').innerHTML = htmlContent;
+
+  window.scrollTo(0, 0);
+
+  });
+
+};
+
+if (document.getElementById('menu_administrador')) {
+
+  fetch('navbar_administrador.html').then(response => {
+
+      return response.text();
+
+  }).then(htmlContent => {
+
+  document.getElementById('menu_administrador').innerHTML = htmlContent;
 
   window.scrollTo(0, 0);
 
