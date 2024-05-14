@@ -154,19 +154,10 @@ $("#formulario-registro").validate({
   }, // --> Fin de mensajes
 });
 // Formulario Ingreso
-$("#formulario-registro").validate({
-  rules: {
-    rut: {
+$("#ingreso-form").validate(
+  {rules: {
+    usuario: {
       required: true,
-      rutChileno: true
-    },
-    nombre: {
-      required: true,
-      soloLetras: true
-    },
-    correo: {
-      required: true,
-      emailCompleto: true,
     },
     password: {
       required: true,
@@ -179,19 +170,11 @@ $("#formulario-registro").validate({
       maxlength: 15,
       equalTo: "#password",
     },
+    
   }, // --> Fin de reglas
   messages: {
-    rut: {
-      required: "El RUT es un campo requerido",
-      rutChileno: "El RUT no es válido (escriba sin puntos y con guión)"
-    },
-    nombre: {
+    usuario: {
       required: "El nombre es un campo requerido",
-      soloLetras: "El nombre sólo puede contener letras y espacios en blanco",
-    },
-    correo: {
-      required: "El correo es un campo requerido",
-      email: "El formato del correo no es válido",
     },
     password: {
       required: "La contraseña es un campo requerido",
@@ -204,6 +187,5 @@ $("#formulario-registro").validate({
       maxlength: "Repetir contraseña debe tener un máximo de 15 caracteres",
       equalTo: "Debe repetir la contraseña escrita anteriormente",
     },
-  }, // --> Fin de mensajes
+  },
 });
-
