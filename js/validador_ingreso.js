@@ -10,6 +10,9 @@ $(document).ready(function() {
           minlength: 5,
           maxlength: 15,
         },
+        cant: {
+        required: true,
+        }
       }, // --> Fin de reglas
       messages: {
         usuario: {
@@ -20,6 +23,8 @@ $(document).ready(function() {
           minlength: "Su contraseña es de un mínimo de 5 caracteres",
           maxlength: "Su contraseña es de un máximo de 15 caracteres",
         },
+        cant: {
+          required: "campo requerido"
       }, // --> Fin de mensajes
     });
   });
