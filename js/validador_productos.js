@@ -46,14 +46,16 @@ $(document).ready(function() {
           },
           precio:{
             required: true,
-            maxlength:10,
-            aceptarDigitos: true,
-            minimoPrecio:true,
+            
+            number:true,
+            min:0,
           },
           desc_subscriptor:{
             required: true,
-            aceptarDigitos: true,
-            maxDescuentSub: true,
+            
+            number:true,
+            min:0,
+            max:100,
           },
           desc_oferta:{
             required: true,

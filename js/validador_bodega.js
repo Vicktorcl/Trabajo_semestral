@@ -28,9 +28,8 @@ $(document).ready(function() {
           },
           cantidad:{
             required: true,
-            maxlength:6,
-            aceptarDigitos: true,
-            minimoPrecio:true,
+            number:true,
+            min:1,
           },
   
         }, // --> Fin de reglas
