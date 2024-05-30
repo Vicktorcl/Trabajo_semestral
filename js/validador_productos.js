@@ -46,21 +46,20 @@ $(document).ready(function() {
           },
           precio:{
             required: true,
-            
             number:true,
             min:0,
           },
           desc_subscriptor:{
             required: true,
-            
             number:true,
             min:0,
             max:100,
           },
           desc_oferta:{
             required: true,
-            aceptarDigitos: true,
-            maxDescuento: true,
+            number:true,
+            min:0,
+            max:100,
           },
   
         }, // --> Fin de reglas
@@ -83,19 +82,21 @@ $(document).ready(function() {
           },
           precio:{
             required: "Este campo es obligatorio",
-            maxlength: "Precio exedido, numero hasta 10 digitos",
-            aceptarDigitos: "Numero mal escrito",
-            minimoPrecio: "El precio no puede ser menor a 0.",
+            number: "El campo debe ser un numero",
+            min: "El precio debe ser mayor o igual que 0"
           },
           desc_subscriptor:{
             required: "Este campo es obligatorio",
-            aceptarDigitos: "Numero mal escrito",
-            maxDescuentSub: "El porcentaje debe estar entre el 0 y el 5%",
+            number: "El campo debe ser un numero",
+            min: "El porcentaje suscriptor debe ser mayor o igual que 0",
+            max: "El porcentaje suscriptor debe ser menor o igual que 100",
+            
           },
           desc_oferta:{
             required: "Este campo es obligatorio",
-            aceptarDigitos: "Numero mal escrito",
-            maxDescuento: "El porcentaje debe estar entre el 0 y el 50%",
+            number: "El campo debe ser un numero",
+            min: "El porcentaje oferta debe ser mayor o igual que 0",
+            max: "El porcentaje oferta debe ser menor o igual que 100",
           },
         },
       });

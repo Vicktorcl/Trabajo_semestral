@@ -47,9 +47,9 @@ $(document).ready(function() {
           },
           cantidad:{
             required: "Este campo es obligatorio",
-            maxlength: "Cantidad exedida, numero hasta 6 digitos",
-            aceptarDigitos: "Numero mal escrito",
-            minimoPrecio: "La cantidad no puede ser menor a 0.",
+            number: "El campo debe ser un numero",
+            min: "La cantidad debe ser mayor o igual que 1",
+            
           },
         },
       });
