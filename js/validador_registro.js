@@ -99,7 +99,7 @@ $(document).ready(function() {
         },
         direccion:{
             required: true,
-            minlength: 15,
+            minlength: 5,
             maxlength: 150,
         },
         password1: {
